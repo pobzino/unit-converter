@@ -18,6 +18,8 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #dbc8fb;
 }
 
 #bottom {
