@@ -23,9 +23,9 @@ function convertLength() {
     let meter = number
     let feet = number
     meter *= 3.281
-    meter = meter.toFixed(2)
+    meter = meter.toFixed(3)
     feet *= (1 / 3.291)
-    feet = feet.toFixed(2)
+    feet = feet.toFixed(3)
     meterDisplay.textContent = `${number} meter(s) = ${meter} feet | ${number} feet = ${feet} metre(s)`
 }
 
@@ -35,9 +35,9 @@ function convertVolume() {
     let liter = number
     let gallon = number
     liter *= 0.264
-    liter = liter.toFixed(2)
+    liter = liter.toFixed(3)
     gallon *= (1 / 0.264)
-    gallon = gallon.toFixed(2)
+    gallon = gallon.toFixed(3)
     volumeDisplay.textContent = `${number} liter(s) = ${liter} gallon(s) | ${number} gallon(s) = ${gallon} liter(s)`
 }
 4
@@ -47,9 +47,9 @@ function convertMass() {
     let kilogram = number
     let pound = number
     kilogram *= 2.204
-    kilogram = kilogram.toFixed(2)
+    kilogram = kilogram.toFixed(3)
     pound *= (1 / 2.204)
-    pound = pound.toFixed(2)
+    pound = pound.toFixed(3)
     massDisplay.textContent = `${number} kilogram(s) = ${kilogram} pounds(s) | ${number} pounds(s) = ${pound} kilogram(s)`
 
 }
